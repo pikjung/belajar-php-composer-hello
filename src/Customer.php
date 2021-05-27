@@ -8,7 +8,9 @@ namespace Fikri\Belajar;
 class Customer
 {
 
-  function __construct($name)
+  public $name;
+  
+  public function __construct($name)
   {
 
   }
