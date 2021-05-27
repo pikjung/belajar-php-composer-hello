@@ -1,0 +1,19 @@
+{
+    "name": "fikri/belajar-php-composer-hello",
+    "description": "Library composer HEllo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "pikjung",
+            "email": "tanjungfikri1@gmail.com"
+        }
+    ],
+    "require": {
+      "php" : "7.3.19"
+    },
+    "autoload" : {
+      "psr-4" : {
+        "Fikri\\Belajar\\" : "src"
+      }
+    }
+}
